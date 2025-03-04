@@ -1,0 +1,44 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 327px;
+  background-color: #232a34;
+  border-radius: 15px;
+  padding: 34px 24px 37px;
+}
+
+.result-info {
+  width: 168px;
+  background-color: #262e38;
+  border-radius: 22.5px;
+  border: none;
+  padding: 5px 12px;
+  margin-top: 24px;
+}
+
+.result-info h2 {
+  color: #fc7614;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+}
+
+h3 {
+  margin-top: 24px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30.38px;
+  text-align: center;
+  color: #ffffff;
+}
+
+p {
+  margin-top: 10px;
+  color: #969fad;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+}

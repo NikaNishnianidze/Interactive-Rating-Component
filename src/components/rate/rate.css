@@ -58,11 +58,6 @@ p {
   color: #ffffff;
 }
 
-.rate button:active {
-  background-color: #7c8798;
-  color: #ffffff;
-}
-
 .last-button {
   margin-top: 24px;
   width: 279px;
