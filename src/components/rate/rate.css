@@ -1,4 +1,7 @@
-.card {
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   width: 327px;
   background-color: #232a34;
   border-radius: 15px;
@@ -25,12 +28,13 @@ h1 {
   line-height: 30.38px;
 }
 
-p {
+.paragraph {
   color: #969fad;
   font-weight: 400;
   font-size: 14px;
   line-height: 22px;
   margin-top: 10px;
+  text-align: left;
 }
 
 .rate {
@@ -46,7 +50,6 @@ p {
   border: none;
   background-color: #262e38;
   color: #7c8798;
-
   font-weight: 700;
   font-size: 14px;
   line-height: 24px;

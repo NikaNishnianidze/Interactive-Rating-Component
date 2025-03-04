@@ -6,13 +6,13 @@ export default function Rate({ rate, setRate, setSubmit }) {
 
   return (
     <>
-      <div className="card">
+      <div className="container">
         <div className="image">
           <img src={starImage} alt="star image" />
         </div>
 
         <h1>How did we do?</h1>
-        <p>
+        <p className="paragraph">
           Please let us know how we did with your support request. All feedback
           is appreciated to help us improve our offering!
         </p>
@@ -23,7 +23,7 @@ export default function Rate({ rate, setRate, setSubmit }) {
               onClick={() => setRate(item)}
               style={{
                 backgroundColor: rate == item ? "#7C8798" : "",
-                color: "#ffffff",
+                color: rate == item ? "#fff" : "",
               }}
             >
               {item}
