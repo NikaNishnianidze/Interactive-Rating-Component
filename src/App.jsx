@@ -1,5 +1,5 @@
 import "./App.css";
-import Rate from "./components/rate/rate";
+import Rate from "./components/rate/Rate";
 import { useState } from "react";
 import Result from "./components/result/Result";
 
