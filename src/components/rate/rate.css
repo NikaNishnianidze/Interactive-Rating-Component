@@ -22,7 +22,6 @@
 h1 {
   color: #ffffff;
   margin-top: 16px;
-
   font-weight: 700;
   font-size: 24px;
   line-height: 30.38px;
@@ -73,4 +72,42 @@ h1 {
   line-height: 17.72px;
   letter-spacing: 1.87px;
   color: #ffffff;
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    padding: 32px 39px 32px 32px;
+    width: 412px;
+  }
+
+  .image {
+    width: 48px;
+    height: 48px;
+  }
+
+  h1 {
+    margin-top: 30px;
+    font-size: 28px;
+    line-height: 35.45px;
+  }
+
+  .paragraph {
+    font-size: 15px;
+    line-height: 24px;
+    margin-top: 7px;
+  }
+
+  .rate {
+    gap: 22px;
+  }
+
+  .rate button {
+    width: 51px;
+    height: 51px;
+  }
+
+  .last-button {
+    margin-top: 32px;
+    width: 341px;
+  }
 }
