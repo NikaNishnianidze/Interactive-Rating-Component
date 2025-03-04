@@ -1,0 +1,78 @@
+.card {
+  width: 327px;
+  background-color: #232a34;
+  border-radius: 15px;
+  padding: 24px 24px 32px;
+}
+
+.image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #262e38;
+}
+
+h1 {
+  color: #ffffff;
+  margin-top: 16px;
+
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30.38px;
+}
+
+p {
+  color: #969fad;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  margin-top: 10px;
+}
+
+.rate {
+  margin-top: 24px;
+  display: flex;
+  gap: 18px;
+}
+
+.rate button {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  border: none;
+  background-color: #262e38;
+  color: #7c8798;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.17px;
+}
+
+.rate button:hover {
+  background-color: #fc7614;
+  color: #ffffff;
+}
+
+.rate button:active {
+  background-color: #7c8798;
+  color: #ffffff;
+}
+
+.last-button {
+  margin-top: 24px;
+  width: 279px;
+  height: 45px;
+  background-color: #fc7614;
+  border-radius: 22.5px;
+  border: none;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17.72px;
+  letter-spacing: 1.87px;
+  color: #ffffff;
+}
